@@ -1,0 +1,118 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  min-height: 100vh;
+  background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+
+}
+
+
+
+header button{
+  /* height: 1rem;
+  padding: 20px; */
+  font-size: 16px;
+  width: 7rem;
+  /* background-color: #cb031c; */
+  background-color: #388E3C;
+  border-radius: 7px;
+  border:2px solid #06530a;
+  font-weight: 700;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+header button:hover{
+  background-color: transparent;
+  /* color: #06530a; */
+  color: #141E46;
+  border:2px solid black;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+section input{
+  padding: 0.6rem;
+  border: none;
+  border-radius: 20px;
+  width: 35%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 16px;
+}
+
+section button{
+  padding: 0.6rem;
+  width: 4.5rem;
+  border-radius: 9px;
+  background-color: #d5d5e1;
+  font-size: 19px;
+
+}
+
+
+
+/* .completedTodo{
+  
+} */
+
+article{
+  padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* article div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+} */
+
+article h2{
+  text-align: center;
+    /* color: #005c52; */
+    color: #333;
+}
+
+ul{
+  padding-left: 20%;
+  padding-top: 1rem;
+  /* transform: translate(0,-50%); */
+}
+
+.todo_cntr{
+  display: flex;
+  width: 65%;
+}
+.currentTodo , .completedTodos {
+  width: 50%;
+}
+
+li{
+  font-size: 20px;
+}
+
+.message {
+  font-size: 20px;
+  /* color: #b6684f; */
+  /* color: #B2533E; */
+  color: #ff1d1da6;
+  font-weight: 600;
+  text-align: center;
+}
+
