@@ -4,7 +4,7 @@
 
 A simple web-based Todo List application built with React.
 
-Host link: (https://github.com/facebook/create-react-app).
+Host link: (https://todo-assign-react.netlify.app/).
 
 ## Features
 
