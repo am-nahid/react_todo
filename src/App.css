@@ -105,6 +105,7 @@ ul{
 
 li{
   font-size: 20px;
+  overflow-wrap: break-word;
 }
 
 .message {
